@@ -1,5 +1,7 @@
 # Image Crop Analysis
 
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD)
+
 ![Analysis of demographic bias of the image cropping algorithm](./notebooks/wiki_no_scaling_intersect_n=10000.jpg)
 
 This is a repo for the code used for reproducing our [Image Crop Analysis paper](https://arxiv.org/abs/2105.08667). 
@@ -68,7 +70,7 @@ try:
 except:
     IN_COLAB = False
 ```
-* Try the [notebooks/Image Crop Analysis.ipynb](Image%20Crop%20Analysis.ipynb) notebook for example. 
+* Try the [notebooks/Image Crop Analysis.ipynb](https://github.com/twitter-research/image-crop-analysis/blob/main/notebooks/Image%20Crop%20Analysis.ipynb) notebook for example. 
 
 
 # Security Issues?
