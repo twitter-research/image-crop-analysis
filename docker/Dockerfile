@@ -4,7 +4,7 @@ MAINTAINER Shubhanshu Mishra <smishra@twitter.com>
 
 ARG conda_env=image-crop-analysis
 
-COPY . /workspace
+COPY ../ /workspace
 WORKDIR /workspace
 
 RUN apt-get update --fix-missing && apt-get install -y zip vim gcc g++ make

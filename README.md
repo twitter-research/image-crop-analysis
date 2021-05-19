@@ -2,9 +2,9 @@
 
 [![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD)
 
-![Analysis of demographic bias of the image cropping algorithm](./notebooks/wiki_no_scaling_intersect_n=10000.jpg)
+![How does a saliency algorithm work](https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/engineering/en_us/insights/2021/imagecropping/newimagecropanimations.gif)
 
-This is a repo for the code used for reproducing our [Image Crop Analysis paper](https://arxiv.org/abs/2105.08667). 
+This is a repo for the code used for reproducing our [Image Crop Analysis paper](https://arxiv.org/abs/2105.08667) as shared on [our blog post](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html). 
 
 If you plan to use this code please cite our paper as follows:
 
@@ -22,10 +22,9 @@ archivePrefix = {arXiv},
        eprint = {2105.08667},
  primaryClass = {cs.CY},
 }
-
-
 ```
 
+![Analysis of demographic bias of the image cropping algorithm](./notebooks/wiki_no_scaling_intersect_n=10000.jpg)
 
 
 # Instructions
@@ -47,7 +46,7 @@ archivePrefix = {arXiv},
 * Run the following commands in this root directory of this project:
 
 ```bash
-docker build -t "image_crop" .
+docker build -t "image_crop" -f docker/Dockerfile .
 docker run -p 9000:9000 -p 8900:8900 -it image_crop
 ```
 * Open the jupyter lab URL shown in terminal. 
