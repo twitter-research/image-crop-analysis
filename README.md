@@ -2,7 +2,8 @@
 
 ![Analysis of demographic bias of the image cropping algorithm](./notebooks/wiki_no_scaling_intersect_n=10000.jpg)
 
-This is a repo for the code used for reproducing our Image Crop Analysis paper.
+This is a repo for the code used for reproducing our [Image Crop Analysis paper](https://arxiv.org/abs/2105.08667). 
+
 If you plan to use this code please cite our paper as follows:
 
 ```
@@ -23,7 +24,7 @@ archivePrefix = {arXiv},
 
 ```
 
-You can find our paper on [arXiv](http://arxiv.org/).
+
 
 # Instructions
 
@@ -31,11 +32,11 @@ You can find our paper on [arXiv](http://arxiv.org/).
   * create a conda environment using `conda env create -f environment.yml`
   * activate the environment using `conda activate image-crop-analysis`
 - Put a dummy jpeg image at `data/dummy.jpeg`
-- Put any additional images with `*.jpeg` extension in DATA_DIR, which is ``./data`
-- If you just want to investigate how the model predicts the saliency map then you can use the notebook [notebooks/Image Annotation Dash.ipynb](notebooks/Image Annotation Dash.ipynb)
-- To reproduce the analysis first prepare the data using [notebooks/Data Preparation.ipynb](notebooks/Data Preparation.ipynb) and then run [notebooks/Demographic Bias Analysis.ipynb](notebooks/Demographic Bias Analysis.ipynb)
-- To reproduce the plots first run [notebooks/Demographic Bias Plots.ipynb](notebooks/Demographic Bias Plots.ipynb)
-- If you want to explore how the library behind the dashboard works see [notebooks/Image Crop Analysis.ipynb](notebooks/Image Crop Analysis.ipynb)
+- Put any additional images with `*.jpeg` extension in DATA_DIR, which is `./data`
+- If you just want to investigate how the model predicts the saliency map then you can use the notebook [notebooks/Image Annotation Dash.ipynb](notebooks/Image%20Annotation%20Dash.ipynb)
+- To reproduce the analysis first prepare the data using [notebooks/Data Preparation.ipynb](notebooks/Data%20Preparation.ipynb) and then run [notebooks/Demographic Bias Analysis.ipynb](notebooks/Demographic%20Bias%20Analysis.ipynb)
+- To reproduce the plots first run [notebooks/Demographic Bias Plots.ipynb](notebooks/Demographic%20Bias%20Plots.ipynb)
+- If you want to explore how the library behind the dashboard works see [notebooks/Image Crop Analysis.ipynb](notebooks/Image%20Crop%20Analysis.ipynb)
 
 
 ## Docker Run
@@ -47,6 +48,7 @@ You can find our paper on [arXiv](http://arxiv.org/).
 docker build -t "image_crop" .
 docker run -p 9000:9000 -p 8900:8900 -it image_crop
 ```
+* Open the jupyter lab URL shown in terminal. 
 
 ## Run on Google Colab
 
@@ -66,7 +68,7 @@ try:
 except:
     IN_COLAB = False
 ```
-* Try the [notebooks/Image Crop Analysis.ipynb](Image Crop Analysis.ipynb) notebook for example. 
+* Try the [notebooks/Image Crop Analysis.ipynb](Image%20Crop%20Analysis.ipynb) notebook for example. 
 
 
 # Security Issues?
