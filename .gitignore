@@ -138,6 +138,7 @@ dmypy.json
 cython_debug/
 
 # Custom
+.DS_Store
 .vscode/
 data/images/*
 data/*.jpeg
