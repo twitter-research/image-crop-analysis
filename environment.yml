@@ -1,0 +1,20 @@
+name: image-crop-analysis
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3
+    - pip
+    - six
+    - ninja
+    - ipykernel
+    - numpy
+    - pandas
+    - matplotlib
+    - scikit-image
+    - scikit-learn
+    - statsmodels
+    - seaborn
+    - requests
+    - dash 
+    - jupyterlab

@@ -1,0 +1,43 @@
+{
+  "head": {
+    "vars": [
+      "human",
+      "image",
+      "sex_or_gender",
+      "ethnic_group",
+      "occupation",
+      "loc_aid"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "human": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q335552"
+        },
+        "image": {
+          "type": "uri",
+          "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack_Dorsey_2014.jpg"
+        },
+        "sex_or_gender": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6581097"
+        },
+        "ethnic_group": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1075293"
+        },
+        "occupation": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q131524"
+        },
+        "loc_aid": {
+          "type": "literal",
+          "value": "n2011042258"
+        },
+        "url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jack_Dorsey_2014.jpg"
+      }
+    ]
+  }
+}

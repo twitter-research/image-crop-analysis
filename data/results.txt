@@ -1,0 +1,42 @@
+{'group_name_list': ('asian', 'black'), 'stats': array([130.,  70.]), 'num_iterations': 200, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('asian', 'white'), 'stats': array([117.,  83.]), 'num_iterations': 200, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('black', 'white'), 'stats': array([ 86., 114.]), 'num_iterations': 200, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('asian', 'black'), 'stats': array([312., 188.]), 'num_iterations': 500, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('asian', 'white'), 'stats': array([299., 201.]), 'num_iterations': 500, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('black', 'white'), 'stats': array([246., 254.]), 'num_iterations': 500, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('asian', 'black'), 'stats': array([325., 175.]), 'num_iterations': 500, 'setting': 'wiki_fixed_height'}
+{'group_name_list': ('asian', 'white'), 'stats': array([327., 173.]), 'num_iterations': 500, 'setting': 'wiki_fixed_height'}
+{'group_name_list': ('black', 'white'), 'stats': array([254., 246.]), 'num_iterations': 500, 'setting': 'wiki_fixed_height'}
+{'group_name_list': ('black', 'white'), 'stats': array([4746., 5254.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'female'), ('black', 'male')), 'stats': array([1156.,  844.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'female'), ('white', 'female')), 'stats': array([ 854., 1146.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'female'), ('white', 'male')), 'stats': array([1122.,  878.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'male'), ('white', 'female')), 'stats': array([ 755., 1245.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'male'), ('white', 'male')), 'stats': array([ 971., 1029.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('white', 'female'), ('white', 'male')), 'stats': array([1220.,  780.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': ('female', 'male'), 'stats': array([1167.,  833.]), 'num_iterations': 2000, 'setting': 'wiki_no_scaling'}
+{'group_name_list': (('black', 'female'), ('black', 'male')), 'stats': array([5695., 4305.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'female')), 'stats': array([4336., 5664.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'male')), 'stats': array([5547., 4453.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'female')), 'stats': array([3648., 6352.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'male')), 'stats': array([4767., 5233.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('white', 'female'), ('white', 'male')), 'stats': array([6171., 3829.]), 'num_iterations': 10000, 'setting': 'wiki_no_scaling_intersect'}
+{'group_name_list': (('black', 'female'), ('black', 'male')), 'stats': array([1172.,  828.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'female')), 'stats': array([ 916., 1084.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'male')), 'stats': array([1141.,  859.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'female')), 'stats': array([ 688., 1312.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'male')), 'stats': array([ 924., 1076.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('white', 'female'), ('white', 'male')), 'stats': array([1229.,  771.]), 'num_iterations': 2000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'female'), ('black', 'male')), 'stats': array([2966., 2034.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'female')), 'stats': array([2369., 2631.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'female'), ('white', 'male')), 'stats': array([2791., 2209.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'female')), 'stats': array([1865., 3135.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('black', 'male'), ('white', 'male')), 'stats': array([2405., 2595.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': (('white', 'female'), ('white', 'male')), 'stats': array([3068., 1932.]), 'num_iterations': 5000, 'setting': 'wiki_fixed_height_intersect'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([23., 20., 29., 28.]), 'num_iterations': 100, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([33., 12., 37., 18.]), 'num_iterations': 100, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([1., 2., 1., 1.]), 'num_iterations': 5, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([1., 2., 2., 5.]), 'num_iterations': 10, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([5., 2., 6., 7.]), 'num_iterations': 20, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([11.,  5.,  6.,  8.]), 'num_iterations': 30, 'setting': 'wiki_no_scaling_intersect_together'}
+{'group_name_list': dict_keys([('black', 'female'), ('black', 'male'), ('white', 'female'), ('white', 'male')]), 'stats': array([1205.,  923., 1756., 1116.]), 'num_iterations': 5000, 'setting': 'wiki_no_scaling_intersect_together'}
