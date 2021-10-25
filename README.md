@@ -1,15 +1,34 @@
 # Image Crop Analysis
 
-[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD)
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD) [![DOI:10.1145/3479594](http://img.shields.io/badge/DOI-10.1145/3479594-blue.svg)](https://doi.org/10.1145/3479594) [![arxiv:2105.08667](http://img.shields.io/badge/arxiv-2105.08667-red.svg)](https://arxiv.org/abs/2105.08667)
 
 ![How does a saliency algorithm work](https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/engineering/en_us/insights/2021/imagecropping/newimagecropanimations.gif)
+
+
 
 This is a repo for the code used for reproducing our [Image Crop Analysis paper](https://arxiv.org/abs/2105.08667) as shared on [our blog post](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html). 
 
 If you plan to use this code please cite our paper as follows:
 
 ```
-@ARTICLE{TwitterImageCrop2021,
+@article{TwitterImageCrop2021,
+  author = {Yee, Kyra and Tantipongpipat, Uthaipon and Mishra, Shubhanshu},
+  title = {Image Cropping on Twitter: Fairness Metrics, Their Limitations, and the Importance of Representation, Design, and Agency},
+  year = {2021},
+  issue_date = {October 2021},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {5},
+  number = {CSCW2},
+  url = {https://doi.org/10.1145/3479594},
+  doi = {10.1145/3479594},
+  journal = {Proceedings of the ACM on Human-Computer Interaction},
+  month = oct,
+  articleno = {450},
+  numpages = {24},
+  keywords = {image cropping, ethical HCI, fairness in machine learning, demographic parity, representational harm}
+}
+@article{TwitterImageCrop2021ArXiv,
        author = {{Yee}, Kyra and {Tantipongpipat}, Uthaipon and {Mishra}, Shubhanshu},
         title = "{Image Cropping on Twitter: Fairness Metrics, their Limitations, and the Importance of Representation, Design, and Agency}",
       journal = {arXiv e-prints},

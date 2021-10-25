@@ -1,0 +1,29 @@
+cff-version: "1.2.0"
+date-released: 2020-10
+message: "If you use this software, please cite it using these metadata."
+title: "Image Cropping on Twitter: Fairness Metrics, their Limitations, and the Importance of Representation, Design, and Agency"
+url: "https://github.com/twitter-research/image-crop-analysis"
+authors: 
+  - family-names: Yee
+    given-names: Kyra
+  - family-names: Tantipongpipat
+    given-names: Uthaipon (Tao) 
+  - family-names: Mishra
+    given-names: Shubhanshu
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Yee
+    given-names: Kyra
+  - family-names: Tantipongpipat
+    given-names: Uthaipon (Tao) 
+  - family-names: Mishra
+    given-names: Shubhanshu
+  booktitle: "Proceedings of the ACM on Human-Computer Interaction"
+  month: 10
+  title: "Image Cropping on Twitter: Fairness Metrics, their Limitations, and the Importance of Representation, Design, and Agency"
+  year: 2021
+  publisher: "Association for Computing Machinery"
+  url: "https://arxiv.org/abs/2110.10318"
+  doi: "https://doi.org/10.1145/3479594"
+  address: "Online"
